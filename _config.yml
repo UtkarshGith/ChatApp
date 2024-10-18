@@ -1,2 +1,9 @@
-exclude: -node_modules
+exclude:
+  - node_modules
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .gitignore
+  - other-folder-or-files
+
   
