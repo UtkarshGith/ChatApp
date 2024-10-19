@@ -4,8 +4,8 @@
   "description": "This is a node server for our chatApplication",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",   // This is the command Render will use to start your server in production
-    "dev": "nodemon index.js",   // This is for development
+    "start": "node index.js",   
+    "dev": "nodemon index.js",   
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Utkarsh",
@@ -14,6 +14,6 @@
     "socket.io": "^4.7.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7" // Move nodemon to devDependencies
+    "nodemon": "^3.1.7"
   }
 }
