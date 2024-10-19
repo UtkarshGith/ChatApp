@@ -1,4 +1,4 @@
-const socket=io('http://localhost:8000');
+const socket=io('https://chatapp-5-go23.onrender.com');
 const form=document.getElementById('send-container');
 const messageinput=document.getElementById('messageInp');
 const messagecontainer=document.querySelector(".container");
